@@ -13,14 +13,14 @@
 
   // Sidebar Stuffs
   &.with_sidebar #main_content {
-    margin-right: 300px;
+    margin-right: 30px + $sidebar-width;
   }
 
   #sidebar {
     float: left;
-    margin-left: -270px;
+    margin-left: -$sidebar-width;
     position: relative;
-    width: 270px;
+    width: $sidebar-width;
     z-index: 1;
 
     .panel_contents {
